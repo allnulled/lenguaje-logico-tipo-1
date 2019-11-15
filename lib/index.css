@@ -81,10 +81,10 @@ body {
 	right: 4px;
     font-family: monospace;
 	text-transform: uppercase;
-	border: 1px solid #DDD;
+	border: 1px solid #DDDDDD;
 	color: black;
 	background-color: #F7F7F7;
-	border-radius: 5pt;
+	border-radius: 2pt;
 	opacity: 0.7;
 	z-index: 1000;
 }
