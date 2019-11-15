@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="lib/index.css">
 		<script src="lib/jquery.js"></script>
 		<script src="lib/codemirror.js"></script>
-		<script src="lib/leloti1.parser.js"></script>
+		<script src="lib/porque.parser.js"></script>
 		<script src="lib/pegjs.js"></script>
 		<script src="lib/pegeditor.js"></script>
 		<script src="lib/index.js"></script>
@@ -15,9 +15,13 @@
 	</head>
 	<body>
 		<div class="wrapper horizontal-rows">
-			<div class="box-half">
-				<textarea id="e1"></textarea>
-				<div class="editor-label">leloti1</div>
+			<div class="box-half box-1">
+				<textarea id="e1" data-pegeditor-grammar="porque"></textarea>
+				<div class="editor-label">porque</div>
+			</div>
+			<div class="box-half box-2">
+				<textarea id="e2"></textarea>
+				<div class="editor-label">resultado</div>
 			</div>
 			<div class="buttons-panel">
 				<button class="change-view-button">

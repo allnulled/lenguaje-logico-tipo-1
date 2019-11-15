@@ -88,3 +88,25 @@ body {
 	opacity: 0.7;
 	z-index: 1000;
 }
+.box-1 .CodeMirror {
+	background-color: #54a0ff;
+	color: white;
+}
+.box-1 .CodeMirror .CodeMirror-gutters {
+	background-color: #54a0ff;
+	background-color: black;
+}
+.box-1 .CodeMirror .CodeMirror-linenumber {
+	color: #BBB;
+}
+.box-2 .CodeMirror {
+	background-color: #130f40;
+	color: white;
+}
+.box-2 .CodeMirror .CodeMirror-gutters {
+	background-color: #130f40;
+	background-color: black;
+}
+.box-2 .CodeMirror .CodeMirror-linenumber {
+	color: #BBB;
+}
