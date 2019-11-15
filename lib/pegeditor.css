@@ -1,0 +1,58 @@
+.CodeMirror {
+	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid #E0E0E0;
+	border-bottom: 0px solid #E0E0E0;
+	border-right: 0px solid #E0E0E0;
+	position: relative;
+}
+
+.CodeMirror .ErrorMessage {
+	display: none;
+    box-sizing: border-box;
+}
+.CodeMirror .ErrorMessage.active {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 4px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 50px;
+}
+.CodeMirror .pegeditor-error {
+	background-color: red;
+    color: white;
+}
+.CodeMirror .ErrorMessage .MessageBox {
+
+}
+.CodeMirror .ErrorMessage.active .MessageBox {
+    background-color: red;
+    color: yellow;
+    opacity: 0.7;
+    border-radius: 2pt;
+    padding: 4px;
+}
+.CodeMirror .ErrorMessage .SuggestionsBox {
+	margin: 10px;
+}
+.CodeMirror .ErrorMessage .SuggestionsBox > .ErrorSuggestion {
+	font-size: 10px;
+    border-top: 1px solid #E0E0E0;
+    cursor: pointer;
+}
+.CodeMirror .ErrorMessage .SuggestionsBox > .ErrorSuggestion:hover,
+.CodeMirror .ErrorMessage .SuggestionsBox > .ErrorSuggestion:focus,
+.CodeMirror .ErrorMessage .SuggestionsBox > .ErrorSuggestion.active,
+.CodeMirror .ErrorMessage .SuggestionsBox > .ErrorSuggestion.selected {
+	background-color: #F0F0F0;
+}
+
+.CodeMirror .ErrorMessage .SuggestionsBox > .LabelSuggestion {
+	font-size: 7px;
+	text-align: right;
+	text-transform: uppercase;
+}

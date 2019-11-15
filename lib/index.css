@@ -1,0 +1,90 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+.wrapper.vertical-rows {
+	flex-direction: row;
+}
+.wrapper.horizontal-rows {
+	flex-direction: column;
+}
+.wrapper .box-half {
+	position: relative;
+	overflow: hidden;
+}
+.wrapper .box-half {
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 50%;
+}
+.buttons-panel {
+	position: fixed;
+	top: 4px;
+	right: 4px;
+	z-index: 1200;
+}
+.change-view-button,
+.change-question-button,
+.change-download-button {
+	cursor: pointer;
+	border: 0px solid white;
+	background-color: #F7F7F7;
+	padding: 4px;
+	opacity: 0.7;
+	border-radius: 2pt;
+	border: 1px solid #DDDDDD;
+}
+
+.change-view-button > img,
+.change-download-button > img,
+.change-question-button > img {
+	width: 30px;
+	vertical-align: middle;
+}
+.data-toggle-inactive {
+	display: none;
+}
+.editor-like-box {
+	border-top: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	padding: 0px;
+}
+.editor-like-box pre, 
+.editor-like-box h4 {
+	padding: 0;
+	margin: 0;
+}
+.editor-like-box {
+    box-sizing: border-box;
+}
+.editor-like-box pre#final-result {
+	height: 100%;
+	min-height: 150px;
+	overflow: scroll;
+}
+.editor-label {
+	position:absolute;
+	padding: 4px;
+	bottom: 4px;
+	right: 4px;
+    font-family: monospace;
+	text-transform: uppercase;
+	border: 1px solid #DDD;
+	color: black;
+	background-color: #F7F7F7;
+	border-radius: 5pt;
+	opacity: 0.7;
+	z-index: 1000;
+}
