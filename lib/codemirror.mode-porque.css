@@ -1,0 +1,17 @@
+.CodeMirror .cm-suceso {
+	color: white;
+}
+.CodeMirror .cm-suceso {}
+.CodeMirror .cm-causalidad,
+.CodeMirror .cm-pregunta,
+.CodeMirror .cm-asignacion,
+.CodeMirror .cm-negacion {
+	color: black;
+	text-shadow: 0 0 1px black;
+}
+.CodeMirror .cm-yo {
+	color: red;
+}
+.CodeMirror .cm-pc {
+	color: yellow;
+}

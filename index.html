@@ -3,10 +3,13 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="lib/codemirror.css">
+		<link rel="stylesheet" type="text/css" href="lib/codemirror.mode-porque.css">
 		<link rel="stylesheet" type="text/css" href="lib/pegeditor.css">
 		<link rel="stylesheet" type="text/css" href="lib/index.css">
 		<script src="lib/jquery.js"></script>
 		<script src="lib/codemirror.js"></script>
+		<script src="lib/codemirror.addon.simple-mode.js"></script>
+		<script src="lib/codemirror.mode-porque.js"></script>
 		<script src="lib/porque.parser.js"></script>
 		<script src="lib/pegjs.js"></script>
 		<script src="lib/pegeditor.js"></script>
@@ -20,13 +23,13 @@
 				<div class="editor-label">porque</div>
 			</div>
 			<div class="box-half box-2">
-				<textarea id="e2"></textarea>
+				<textarea id="e2" data-pegeditor-settings='{"mode":"porque-reporte"}'></textarea>
 				<div class="editor-label">resultado</div>
 			</div>
 			<div class="buttons-panel">
-				<!--button class="change-view-button">
+				<button class="change-view-button">
 					<img src="lib/eye.png">
-				</button-->
+				</button>
 				<button class="change-download-button">
 					<img src="lib/output.png">
 				</button>

@@ -102,6 +102,7 @@ body {
 .box-2 .CodeMirror {
 	background-color: #130f40;
 	color: white;
+	font-size: 9px;
 }
 .box-2 .CodeMirror .CodeMirror-gutters {
 	background-color: #130f40;
