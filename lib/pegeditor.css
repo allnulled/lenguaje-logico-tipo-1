@@ -38,6 +38,8 @@
 }
 .CodeMirror .ErrorMessage .SuggestionsBox {
 	margin: 10px;
+    background-color: #E0E0E0;
+    color: black;
 }
 .CodeMirror .ErrorMessage .SuggestionsBox > .ErrorSuggestion {
 	font-size: 10px;
