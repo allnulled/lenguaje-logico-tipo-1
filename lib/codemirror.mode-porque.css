@@ -15,3 +15,6 @@
 .CodeMirror .cm-pc {
 	color: yellow;
 }
+.CodeMirror .cm-op-binaria {
+	color: blue;
+}
