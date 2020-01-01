@@ -1436,7 +1436,7 @@
     }
   }
 
-  root.window.PorqueParser = {
+  root."PorqueParser" = {
     SyntaxError: peg$SyntaxError,
     parse:       peg$parse
   };

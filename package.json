@@ -1,0 +1,24 @@
+{
+  "name": "porque",
+  "version": "1.0.0",
+  "description": "\"# langen\"  \r \"# langen\" \r \"# lenguaje-logico-tipo-1\"",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "pegjs --format globals --export-var \"window.PorqueParser\" lib/porque.parser.pegjs && node fix.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/porque.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allnulled/porque/issues"
+  },
+  "homepage": "https://github.com/allnulled/porque#readme"
+}
