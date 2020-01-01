@@ -18,3 +18,9 @@
 .CodeMirror .cm-op-binaria {
 	color: blue;
 }
+.CodeMirror .cm-persona {
+	color: red;
+}
+.CodeMirror .cm-maquina {
+	color: yellow;
+}
