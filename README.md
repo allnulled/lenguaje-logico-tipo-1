@@ -18,13 +18,15 @@ si no {voy al médico} entonces {estoy sano}.
 
 si no {tengo porros} entonces no {estoy ok}.
 si no {estoy ok} entonces {voy al médico}.
-si {estoy ok} entonces no {estoy sano}.
+si {voy al médico} entonces no {estoy sano}.
 
 {tengo medicina} porque {tengo porros}.
 
 es cierto que {tengo porros}.
 
 ¿{estoy sano}?
+
+¿por qué {estoy sano}?
 ```
 
 Cópialo y pégalo. La máquina ya sabe que los porros son medicina, Mr. Minimarley.
