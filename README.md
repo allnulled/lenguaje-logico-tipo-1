@@ -29,7 +29,7 @@ es cierto que {tengo porros}.
 
 Cópialo y pégalo. La máquina ya sabe que los porros son medicina, Mr. Minimarley.
 
-[![Minimarley](https://img.youtube.com/vi/FEa2diI2qgA/mqdefault.jpg)](https://www.youtube.com/watch?v=9PukqhfMxfc)
+[![Minimarley](https://img.youtube.com/vi/9PukqhfMxfc/mqdefault.jpg)](https://www.youtube.com/watch?v=9PukqhfMxfc)
 
 ## Código fuente
 
