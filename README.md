@@ -39,7 +39,7 @@ EOL = "\n" / "\r\n"
 EOS = (EOL* / !.)
 ```
 
-La ventaja del lenguaje es que deja como unas "escuchas" entre los valores que se relacionan mediante las sentencias lógicas del lenguaje. Es decir, las relaciones no pueden mutar. Tiene limitaciones, pero ilumina un poco el nexo entre lenguaje y lógica con lo del `porque`. Es útil. Ya, joder, no es ChatGPT. Obvio que no.
+La ventaja del lenguaje es que deja como unas "escuchas" entre los valores que se relacionan mediante las sentencias lógicas del lenguaje. Es decir, las relaciones no pueden mutar. Tiene limitaciones, pero ilumina un poco el nexo entre lenguaje y lógica con lo del `porque`. Es útil. Ya, joder, no es ChatGPT. Obvio que no. Ni va por ahí, pero vaya, que me preocupa la cabeza de la gente, el ordenador ya sé que sabe multiplicar.
 
 -----
 
