@@ -2,6 +2,14 @@
 
 ¿No llegué a documentarlo? ¿Tanta era la rabia? En fin.
 
+## Versión online
+
+Puedes acceder aquí:
+
+  - [https://allnulled.github.io/porque/](https://allnulled.github.io/porque/)
+
+## Código fuente
+
 El front del lenguaje es este:
 
 ```pegjs
@@ -31,7 +39,7 @@ EOL = "\n" / "\r\n"
 EOS = (EOL* / !.)
 ```
 
-La ventaja del lenguaje es que deja como unas "escuchas" entre los valores que se relacionan mediante las sentencias lógicas del lenguaje. 
+La ventaja del lenguaje es que deja como unas "escuchas" entre los valores que se relacionan mediante las sentencias lógicas del lenguaje. Es decir, las relaciones no pueden mutar. Tiene limitaciones, pero ilumina un poco el nexo entre lenguaje y lógica con lo del `porque`. Es útil. Ya, joder, no es ChatGPT. Obvio que no.
 
 -----
 
@@ -67,4 +75,5 @@ Esta sentencia va a hacer que el valor de `{ x }` sea dependiente de `{ y }` baj
 ## Sentencia `si { x } entonces { y }`
 
 Esta sentencia va a hacer que el valor de `{ y }` sea dependiente de `{ x }` bajo relación de condicional.
+
 
