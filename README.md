@@ -8,6 +8,29 @@ Puedes acceder aquí:
 
   - [https://allnulled.github.io/porque/](https://allnulled.github.io/porque/)
 
+
+## Ejemplo de uso
+
+```porque
+si {tengo porros} entonces {estoy ok}.
+si {estoy ok} entonces no {voy al médico}.
+si no {voy al médico} entonces {estoy sano}.
+
+si no {tengo porros} entonces no {estoy ok}.
+si no {estoy ok} entonces {voy al médico}.
+si {estoy ok} entonces no {estoy sano}.
+
+{tengo medicina} porque {tengo porros}.
+
+es cierto que {tengo porros}.
+
+¿{estoy sano}?
+```
+
+Cópialo y pégalo. La máquina ya sabe que los porros son medicina, Mr. Minimarley.
+
+[![Minimarley](https://img.youtube.com/vi/FEa2diI2qgA/mqdefault.jpg)](https://www.youtube.com/watch?v=9PukqhfMxfc)
+
 ## Código fuente
 
 El front del lenguaje es este:
